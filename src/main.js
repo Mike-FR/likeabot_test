@@ -1,9 +1,11 @@
 import 'vuetify/dist/vuetify.min.css'
+import '../node_modules/nprogress/nprogress.css'
 import Vue from 'vue'
 import App from './App.vue'
 import Vuetify from 'vuetify'
-import {firestorePlugin} from 'vuefire'
+import { firestorePlugin } from 'vuefire'
 import VueRouter from 'vue-router'
+import NProgress from 'nprogress'
 
 // import components
 import AddUser from './components/AddUser.vue'
@@ -42,6 +44,17 @@ const routes = [
 ];
 
 const router = new VueRouter({ mode: 'history', routes: routes });
+
+router.beforeResolve((to, from, next) => {
+  if (to.name) {
+    NProgress.start()
+  }
+  next()
+})
+
+router.afterEach(() => {
+  NProgress.done()
+})
 
 new Vue({
   render: h => h(App),

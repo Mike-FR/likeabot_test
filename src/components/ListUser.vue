@@ -1,5 +1,5 @@
 <template>
-  <div id="listuser">
+  <div id="listuser" class="animated bounceInUp">
     <v-app>
       <h3>Users list</h3>
       <div>

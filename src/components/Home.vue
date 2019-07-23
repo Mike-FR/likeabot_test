@@ -1,9 +1,9 @@
 <template>
   <div id="adduser">
     <v-app>
-      <h3>Welcome to my first Vue app</h3>
-      <div>
-        <img src="../assets/logo.png" />
+      <h3  class="animated fadeInDown">Welcome to my first Vue app</h3>
+      <div class="">
+        <img class="animated infinite pulse" src="../assets/logo.png"/>
       </div>
 
 

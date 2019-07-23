@@ -1,5 +1,5 @@
 <template>
-  <div id="adduser">
+  <div id="adduser" class="animated bounceInUp">
     <v-app>
       <h3>Create a new user</h3>
       <div>
@@ -63,7 +63,7 @@
               </v-menu>
             </v-flex>
             <div>
-              <v-btn color="success" @click="save(date)">Create</v-btn>
+              <v-btn color="#41B883" class="white--text" @click="save(date)">Create</v-btn>
             </div>
           </v-layout>
         </v-container>
@@ -131,6 +131,10 @@ h3 {
 img {
   width: 60px;
   margin: 3em 0;
+}
+
+.container {
+  width: 60%;
 }
 
 .layout {

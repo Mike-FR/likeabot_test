@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container">
-    <nav class="navbar navbar-expand-sm bg-light">
+    <nav id="nav" class="navbar navbar-expand-sm bg-light animated fadeInUp">
       <ul class="navbar-nav">
         <li class="nav-item">
           <router-link :to="{ name: 'Home' }" class="nav-link">Home</router-link>

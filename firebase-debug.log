@@ -1,0 +1,21 @@
+[debug] [2019-07-23T16:01:46.850Z] ----------------------------------------------------------------------
+[debug] [2019-07-23T16:01:46.851Z] Command:       /home/mickael/.nvm/versions/node/v10.15.3/bin/node /home/mickael/.nvm/versions/node/v10.15.3/bin/firebase init
+[debug] [2019-07-23T16:01:46.851Z] CLI Version:   7.1.1
+[debug] [2019-07-23T16:01:46.851Z] Platform:      linux
+[debug] [2019-07-23T16:01:46.851Z] Node Version:  v10.15.3
+[debug] [2019-07-23T16:01:46.852Z] Time:          Tue Jul 23 2019 18:01:46 GMT+0200 (GMT+02:00)
+[debug] [2019-07-23T16:01:46.852Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-23T16:01:46.855Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-23T16:01:46.856Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/mickael/Documents/Candidatures/Likeabot/Likeabot
+

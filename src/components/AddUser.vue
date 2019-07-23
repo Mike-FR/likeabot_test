@@ -124,6 +124,11 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
+h3 {
+    margin-top: 2em;
+}
+
 img {
   width: 60px;
   margin: 3em 0;

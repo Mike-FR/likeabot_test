@@ -27,6 +27,12 @@
 .gap {
   margin-top: 50px;
 }
+
+nav {
+  font-size: 1.4em;
+  justify-content: center;
+}
+
 </style>
 
 <script>
